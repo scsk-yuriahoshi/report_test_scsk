@@ -324,6 +324,7 @@ order_info_all AS (
 		order_info_all.brand_code ASC,
 		order_info_all.item_price DESC,
 		order_info_all.g_department_code ASC,
-		order_info_all.l3_item_code ASC
+		order_info_all.l3_item_code ASC,
+		order_info_all.item_quantity ASC	-- 20191126 GitHubのテスト用に追加
 );
 COMMIT;
